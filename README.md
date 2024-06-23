@@ -24,3 +24,5 @@ Simply download the folder, extract it, click on the .exe, and... that's it!
 
 - The program only mutes notifications but won't stop Discord notifications from showing up. If that's an issue, simply disable Discord overlay (Settings -> In-Game Overlay -> Set "Enable in-game overlay" to off).
 - **Disclaimer 2:** Before asking, yes, I made this because I choked on 350 pp due to some random dude spamming me.
+
+![image](https://github.com/ReSuKiii/letmeplay/assets/97566451/bf8abd3b-059c-4ce9-8e4b-7d8431ffdf3b)
