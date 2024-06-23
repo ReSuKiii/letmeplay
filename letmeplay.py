@@ -41,6 +41,8 @@ def set_discord_notification_mute(mute):
 def show_notification(title, message):
     ctypes.windll.user32.MessageBoxW(0, message, title, 0x40 | 0x1)
 # This is for the Windows notification, it uses ctypes.windll.user32.MessageBoxW to show a message box.
+# The title and message are passed as arguments to the function.
+# The 0x40 | 0x1 flags are used to display the message box as a notification.
 
 def main():
     try:
@@ -84,5 +86,5 @@ def main():
 if __name__ == "__main__":
     main()
 
-# To all my fellow programmers out here, if you have any suggestions please tell me :3 
+# To all my fellow programmers out here, if you have any suggestions please tell me ^^
 # I'm still learning and i know this can be done in so many better ways  
