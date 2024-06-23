@@ -28,7 +28,7 @@ def set_discord_notification_mute(mute):
             volume.SetMute(mute, None)
 
 def show_notification(title, message):
-    """Show a Windows notification."""
+    """Windows notification."""
     ctypes.windll.user32.MessageBoxW(0, message, title, 0x40 | 0x1)
 
 def main():
