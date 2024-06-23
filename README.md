@@ -6,8 +6,6 @@ Fear not, LetMePlay is here!
 
 With LetMePlay, you can now achieve that new top play on Harumachi Clover 3 mods without any problems! (except for skill issues, probably).
 
-But why not simply put dnd on discord ?
-Because i want notifications when i'm playing, just not while i'm playing  !
 
 
 ## Installation
