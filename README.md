@@ -6,12 +6,17 @@ Fear not, LetMePlay is here!
 
 With LetMePlay, you can now achieve that new top play on Harumachi Clover 3 mods without any problems! (except for skill issues, probably).
 
+But why not simply put dnd on discord ?
+Because i want notifications when i'm playing, just not while i'm playing  !
+
+
 ## Installation
 
 Simply download the folder, extract it, click on the .exe, and... that's it!
 
 ## Notes
 
+- It only mute discord while playing a map (check if you're playing a map every 3 seconds), not when the game is launched !
 - The program will notify you that it is running and will automatically close itself when you exit osu (no notification for the last part).
 - **Note:** Only works on Windows. If you know how to make it work for other OS, please message me on Twitter.
 
