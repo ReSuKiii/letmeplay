@@ -2,7 +2,13 @@ Tired of pings and Discord sounds while playing osu!?
 
 Fear not, LetMePlay is here!
 
-With LetMePlay, you can now achieve that new top play on Harumachi Clover with 3 mods without any interruptions (except for skill issues, probably). Simply download the file, click on the .exe, and... that's it!
+With LetMePlay, you can now achieve that new top play on Harumachi Clover 3 mods without any issues ! (except for skill issues, probably). 
+
+INSTALATION :
+
+Simply download the folder, extract it, click on the .exe, and... that's it!
+
+NOTES :
 
 The program will notify you that it is running and will automatically close itself when you exit osu (no notification for the last part).
 
