@@ -4,7 +4,7 @@ Tired of pings and Discord sounds while playing osu!?
 
 Fear not, LetMePlay is here!
 
-With LetMePlay, you can now achieve that new top play on Harumachi Clover with 3 mods without any interruptions! (except for skill issues, probably).
+With LetMePlay, you can now achieve that new top play on Harumachi Clover 3 mods without any problems! (except for skill issues, probably).
 
 ## Installation
 
