@@ -1,0 +1,4 @@
+psutil==6.0.0
+pycaw==20240210
+PyGetWindow==0.0.9
+Pyinstaller==3.6
