@@ -1,19 +1,16 @@
 import psutil # checking running processes
 import time
-from pygetwindow import getWindowsWithTitle # checking window titles
-from pycaw.pycaw import AudioUtilities, ISimpleAudioVolume # controlling audio sessions
+from pygetwindow import getWindowsWithTitle 
+from pycaw.pycaw import AudioUtilities, ISimpleAudioVolume 
 import ctypes # showing Windows notifications
 
 
 
 def is_osu_running():
-    """Check if osu! is running."""
     for process in psutil.process_iter(['name']):
         if process.info['name'] == 'osu!.exe':
             return True
     return False
-# This basically iterate trough all processes and check if the name of the process is 'osu!.exe'. 
-# If it is, it returns True, otherwise False. 
 
 
 def is_playing_map():
@@ -23,7 +20,6 @@ def is_playing_map():
         if 'osu!' in window.title and '-' in window.title:
             return True
     return False
-# The same goes for the window title 
 # If a window title contains both osu! and a dash (-), it indicates that a map is being played.
 # If it does, it returns True, otherwise False. 
 
@@ -77,7 +73,6 @@ def main():
 # If osu! is not running, the script stops.
     
     except KeyboardInterrupt:
-        # that shit wouldn't work for some unknown reasons, fixed tho
         set_discord_notification_mute(False)
         print("\nExiting... Discord notifications unmuted.")
         show_notification("LetMePlay", "LetMePlay has stopped.")
@@ -86,5 +81,5 @@ def main():
 if __name__ == "__main__":
     main()
 
-# To all my fellow programmers out here, if you have any suggestions please tell me ^^
-# I'm still learning and i know this can be done in so many better ways  
+
+
